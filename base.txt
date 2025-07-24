@@ -1,0 +1,17 @@
+   📚 DSA Topic                     	✅ Key Concepts to Learn
+1	Arrays	                                Traversal, sum, max, search, subarrays
+2	Strings                                	Palindrome, frequency, manipulation
+3	Recursion                         	Base case, backtracking, factorial, etc.
+4	Sorting                        Algorithms	Bubble, Selection, Insertion, Merge, Quick
+5	Searching                          Algorithms	Linear, Binary Search
+6	Pointers (Advanced)	                          Dynamic arrays, pointer functions
+7	Linked Lists                          	SLL, DLL, operations, reverse, middle node
+8	Stacks and Queues                         	Push/pop, infix to postfix, sliding window
+9	Hashing                       	Frequency, maps, sets, collision logic
+10	Trees                         	Binary Tree, BST, traversal, height, LCA
+11	Graphs                        	BFS, DFS, Dijkstra, Union Find
+12	Dynamic Programming                       	Memoization, Tabulation, Fibonacci, LIS
+13	Greedy Algorithms                         	Activity selection, coin change
+14	Backtracking	                          N-Queens, Sudoku, Subsets
+15	Bit Manipulation                          	XOR, AND, counting set bits
+16	Tries & Advanced                          Topics	For top interview prep
