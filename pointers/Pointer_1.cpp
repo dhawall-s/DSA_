@@ -32,12 +32,21 @@ int main()
     cout << "Value of num2  is :" << num2 << endl;
     cout << "Value of np is :" << np << endl;
     cout << "Value of &np is :" << &num2 << endl;
-    cout<<"Value before increment "<<num2<<endl;
+    cout << "Value before increment " << num2 << endl;
     (*np)++;
-    cout<<"Value after increment "<<num2<<endl;
-    int *q=np;
+    cout << "Value after increment " << num2 << endl;
+    int *q = np;
     // cout<<"Value of np is"<<np<<endl;
-    cout<<"Value of &np is"<<&num2<<endl;
-    cout<<"Value of q is "<<q<<endl;
+    cout << "Value of &np is" << &num2 << endl;
+    cout << "Value of q is " << q << endl;
+
+    int i = 4;
+    int *t = &i;
+    *t = *t + 1;
+    cout << i << endl;
+    cout << *t << endl;
+    cout << t << endl;
+    t = t + 1; // address 4 byte aage hoga 
+    cout << t << endl;
     return 0;
 }
