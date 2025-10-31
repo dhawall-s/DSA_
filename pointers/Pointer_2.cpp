@@ -12,6 +12,12 @@ int main()
     cout << "size of arr[0] : " << sizeof(arr[0]) << endl;
     cout << *arr + 10 << endl;  // First location mein 1 add hoga
     cout << *(arr + 1) << endl; // Second Location Print Karega
+    // arr[i]=*(arr+i)
+    // i[arr]=*(i+arr) //these both are same
+    int i = 3;
+    cout << i[arr] << endl;
+    cout<<&arr[1];
+
     
 
     return 0;
