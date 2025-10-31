@@ -16,9 +16,37 @@ int main()
     // i[arr]=*(i+arr) //these both are same
     int i = 3;
     cout << i[arr] << endl;
-    cout<<&arr[1];
+    cout << &arr[1] << endl;
+    cout << "-------------" << endl;
+    int temp[10];
+    cout << sizeof(temp) << endl;
+    int *ptr = &temp[0];
+    cout << sizeof(ptr) << endl;
+    cout << sizeof(*ptr) << endl;
+    cout << sizeof(&ptr) << endl;
+
+    cout << "-----------" << endl;
+
+    int a[5] = {1, 2, 3, 4, 5};
+    cout << "-->";
+    cout << &a[0] << endl;
+    cout << &a << endl;
+    cout << a << endl;
+
+    int *p = &a[0];
+    cout << "-->";
+    cout << &p[0] << endl;
+    cout << p << endl;
+    cout << &p << endl;
+
+    cout<<p+1;
+
+    cout <<endl;
+
 
     
+
+
 
     return 0;
 }
