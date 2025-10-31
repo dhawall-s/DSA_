@@ -32,6 +32,12 @@ int main()
     cout << "Value of num2  is :" << num2 << endl;
     cout << "Value of np is :" << np << endl;
     cout << "Value of &np is :" << &num2 << endl;
-
+    cout<<"Value before increment "<<num2<<endl;
+    (*np)++;
+    cout<<"Value after increment "<<num2<<endl;
+    int *q=np;
+    // cout<<"Value of np is"<<np<<endl;
+    cout<<"Value of &np is"<<&num2<<endl;
+    cout<<"Value of q is "<<q<<endl;
     return 0;
 }
