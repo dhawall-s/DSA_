@@ -23,5 +23,15 @@ int main()
     cout << "&d is :" << &d << endl;
     cout << "Size of pointer is :" << sizeof(*pd) << endl;
     cout << "Size of double is :" << sizeof(d) << endl;
+
+    int *np = 0;
+    int num2 = 5;
+    np = &num2;
+    // cout<<"Null pointer with 0"<<endl;
+    cout << "Value of *np is :" << *np << endl;
+    cout << "Value of num2  is :" << num2 << endl;
+    cout << "Value of np is :" << np << endl;
+    cout << "Value of &np is :" << &num2 << endl;
+
     return 0;
 }
